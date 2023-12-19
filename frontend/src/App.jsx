@@ -3,7 +3,7 @@ import MainPage from './pages/beforelogin/MainPage'
 
 const App = () => {
   return (
-    <div>
+    <div className=''>
       <MainPage/>
     </div>
   )
