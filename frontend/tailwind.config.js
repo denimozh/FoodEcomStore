@@ -1,9 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js,jsx}"],
+  content: ["./src/**/*.{html,js,jsx}",
+            "./src/components/**/*.{js,jsx,ts,tsx}",],
   theme: {
     extend: {
-      'chef': "url('./images/chef.png')",
+      backgroundImage: {
+        "loadMoreBG": "url(./images/loadMoreBG.jpg)",
+      },
     },
   },
   plugins: [],

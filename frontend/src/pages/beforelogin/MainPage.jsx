@@ -5,33 +5,41 @@ const MainPage = () => {
   return (
     <div className=''>
         <div className='bg-orange-50'>
-            <div className='px-40'>
+            <div className='px-56'>
                 <Navbar />
-                <div className='pb-40 pt-5'>
+                <div className='pb-36 pt-5'>
                     <HeroSection />
                 </div>
             </div>
         </div>
-        <div className='px-40'>
-            <MenuSection />
-            <ServiceSection />
+        <div className='px-56'>
+            <div className='pt-40 pb-32'>
+                <MenuSection />
+            </div>
+        </div>
+        <div className='bg-orange-50'>
+            <div className='px-56'>
+                <ServiceSection />
+            </div>
+        </div>
+        <div className='px-56'>
             <TeamSection />
         </div>
         <div className='bg-orange-50'>
-            <div className='px-40'>
+            <div className='px-56'>
                 <AboutUs />
             </div>
         </div>
-        <div className='px-40'>
+        <div className='px-56'>
             <Blog />
         </div>
         <div className='bg-orange-50'>
-            <div className='px-40'>
+            <div className='px-56'>
                 <CTA />
             </div>
         </div>
         <div className='bg-slate-950'>
-            <div className='px-40 '>
+            <div className='px-56'>
                 <Bottom />
             </div>
         </div>
