@@ -6,10 +6,14 @@ import Team4 from "./images/chefTeam4.jpg"
 
 const TeamSection = () => {
   return (
-    <div className='pt-20 pb-24'>
+    <div className='pt-20 pb-32'>
       <div>
-        <p className='text-center text-5xl font-semibold pb-12 pt-10'>Our Special Chefs</p>
-        <p className='text-center pb-14 text-lg'>You're in the right place! We've changed our name to better reflect our goal to make cooking more accessible for everyone.</p>
+        <div className='flex flex-row gap-4 justify-center items-center pr-6 pb-12'>
+          <p className='text-center text-5xl font-semibold'>Our </p>
+          <p className='text-center text-5xl font-semibold '>Special</p>
+          <p className='text-5xl font-semibold text-orange-500 border-b-4 border-orange-300 pt-1 rounded-md'>Chefs</p>
+        </div>
+        <p className='text-center pb-14 text-lg'>You're in the right place! We've changed our name to better reflect our goal to <br/>make cooking more accessible for everyone.</p>
       </div>
       <div className='flex flex-row gap-4'>
         <div className='basis-1/4'>

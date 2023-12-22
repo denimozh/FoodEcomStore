@@ -10,7 +10,7 @@ import { orange } from '@mui/material/colors';
 const AboutUs = () => {
   return (
     <div>
-      <div className='flex gap-40 pt-32 '>
+      <div className='flex gap-40 pt-32 pb-20'>
         <div className='basis-3/5 bg-orange-300 rounded-br-[80px] relative'>
           <img src={aboutUsChef} alt=' ' className='pl-56'/>
           <div className='absolute bottom-40 left-16 bg-white rounded-lg -rotate-12'>
@@ -20,7 +20,7 @@ const AboutUs = () => {
               </div>
             </div>
           </div>
-          <div className='absolute -right-16 -top-14 bg-white rounded-lg px-5 py-5'>
+          <div className='absolute -right-16 -top-14 bg-slate-50 rounded-lg px-5 py-5'>
             <p className='font-semibold pb-2'>Quality Check</p>
             <div className='flex flex-row bg-orange-300 rounded-lg px-1 py-1 border-2 border-orange-400'>
               <div className='pl-1'>
@@ -47,8 +47,8 @@ const AboutUs = () => {
           </div>
         </div>
         <div className='basis-2/5'>
-          <p className='font-medium text-3xl'>About Us We have proven to deliver quality</p>
-          <p className='tracking-wide pt-8 pb-8'>Food Dev is a fast growing and promising food delivery service in the UK. With excellent customer service you can count on us to deliver.</p>
+          <p className='font-medium text-3xl pb-4'>About Us We have proven to deliver quality</p>
+          <p className='tracking-wide pt-8 pb-12'>Food Dev is a fast growing and promising food delivery service in the UK. With excellent customer service you can count on us to deliver.</p>
           <Button text={"Read More"}/>
         </div>
       </div>
