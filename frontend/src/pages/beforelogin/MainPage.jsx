@@ -1,5 +1,5 @@
 import React from 'react'
-import { AboutUs, Blog, Bottom, CTA, HeroSection, MenuSection, Navbar, ServiceSection, TeamSection } from '../../components'
+import { AboutUs, Bottom, CTA, HeroSection, MenuSection, Navbar, TeamSection } from '../../components'
 
 const MainPage = () => {
   return (
@@ -19,19 +19,13 @@ const MainPage = () => {
         </div>
         <div className='bg-orange-50'>
             <div className='px-56'>
-                <ServiceSection />
+                <TeamSection />
             </div>
         </div>
-        <div className='px-56'>
-            <TeamSection />
-        </div>
-        <div className='bg-orange-50'>
+        <div className=''>
             <div className='px-56'>
                 <AboutUs />
             </div>
-        </div>
-        <div className='px-56'>
-            <Blog />
         </div>
         <div className='bg-orange-50'>
             <div className='px-56'>
