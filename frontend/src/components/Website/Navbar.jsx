@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../UI/Button'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
@@ -13,7 +14,9 @@ const Navbar = () => {
             <div className='flex pr-6'>
               <p className='px-6 font-medium hover:decoration-orange-500 hover:text-orange-500'>Home</p>
               <p className='px-6 font-medium hover:decoration-orange-500 hover:text-orange-500'>Menu</p>
-              <p className='px-6 font-medium hover:decoration-orange-500 hover:text-orange-500'>Order</p>
+              <Link to="/start">
+                <p className='px-6 font-medium hover:decoration-orange-500 hover:text-orange-500'>Order</p>
+              </Link>
             </div>
           </div>
         </div>
