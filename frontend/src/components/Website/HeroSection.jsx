@@ -5,6 +5,7 @@ import customer from "./images/customer.avif";
 import MopedIcon from '@mui/icons-material/Moped';
 import { orange } from '@mui/material/colors';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
+import { Link } from 'react-router-dom';
 
 const HeroSection = () => {
   return (
@@ -26,7 +27,9 @@ const HeroSection = () => {
             </p>
           </div>
           <div className='pt-8'>
-            <Button width={40} height={14} text={"Get Started"}/>
+            <Link to="/start">
+              <Button width={40} height={14} text={"Get Started"}/>
+            </Link>
           </div>
         </div>
         <div className='basis-3/6 relative'>
